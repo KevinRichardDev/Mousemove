@@ -1,6 +1,6 @@
 @font-face {
   font-family: "font-1";
-  src: url(./font/Inter-VariableFont_slnt\wght.ttf);
+  src: url(./font/Inter-VariableFont_slntwght.ttf);
 }
 * {
   margin: 0;
@@ -25,6 +25,27 @@ body {
   background: rgb(27, 27, 27);
   color: rgb(246, 246, 246);
   min-height: 100vh;
+}
+.mouse {
+  position: absolute;
+  border-radius: 150px;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+}
+#cursor {
+  background: #2128bd;
+  width: 14px;
+  height: 14px;
+}
+#mouse1 {
+  height: 100px;
+  width: 100px;
+  background: white;
+}
+#mouse2 {
+  height: 200px;
+  width: 200px;
+  background: rgb(41, 41, 41);
 }
 nav {
   display: grid;
@@ -141,3 +162,4 @@ footer img {
     align-items: center;
   }
 }
+
